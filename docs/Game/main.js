@@ -315,7 +315,7 @@ function moveWalls() {
     if (l.pos.y < 50) {
       rect(l.pos.x, 95, 2, l.pos.y - 100)
     } else {
-      rect(l.pos.x, 10, 2, l.pos.y)
+      rect(l.pos.x, 0, 2, l.pos.y)
     }
   });
 }
